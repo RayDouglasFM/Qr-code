@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit:wght@400;700&family=Poppins:wght@400;600&family=Roboto:wght@100;400;500;700;900&family=Signika+Negative:wght@300&display=swap');
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--bg-body);
+}
+main{
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--bg-card);
+  text-align: center;
+  width: 415px;
+  height: 645px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.card img{
+  width: 100%;
+  border-radius: 15px;
+}
+
+.card .descricao{
+  margin-top: 30px;
+  width: 100%;
+}
+
+.card .descricao h1{
+  color: var(--color-h1);
+}
+
+.card .descricao p{
+  margin-top: 20px;
+  font-size: 1.4rem;
+  color: var(--color-p);
+}

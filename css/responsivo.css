@@ -1,0 +1,15 @@
+@media(max-width: 375px){z
+    .descricao h1{
+        font-size: 1.4rem;
+    }
+
+    .descricao p{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 425px){
+    .card{
+        width: 400px;
+    }
+}
